@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+.gradient-bg {
+  background: linear-gradient(135deg, #A7D3F3, #8DCFB3);
+}
+
+.cta-bg {
+  background-color: #C3A7F3;
+}
+
+.animated-counter {
+  transition: all 0.5s ease-in-out;
+}
+
+.card-hover {
+  transition: all 0.3s ease-in-out;
+}
+
+.card-hover:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.smooth-scroll {
+  scroll-behavior: smooth;
+}
